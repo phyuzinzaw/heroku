@@ -1,0 +1,159 @@
+<html>
+<head>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+       <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+  <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+
+.bgimg-1, .bgimg-2,.bgimg-3 {
+  position: relative;
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  background-image: url("image/aa.jpg");
+  height: 100%;
+}
+
+
+h1 {
+  font-size: 50px;
+  color: black;
+  padding-left: 400px;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+/*h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}*/
+.nav-extended{
+  background-image: url("image/aa.jpg");
+    }
+    * {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.mdl-button__ripple-container {
+    display: block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+    
+  
+</style>
+</head>
+<body>
+   <nav class="nav-extended">
+    <div class="nav-wrapper" >
+       <!-- <a href="#!" class="brand-logo"><i class="material-icons">menubar</i>Logo</a> -->
+      <button id="demo-menu-lower-left" class="mdl-button mdl-js-button mdl-button--icon" style="padding-left: 150px;">
+  <i class="material-icons">more_vert</i>
+</button>
+
+<ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect"
+    for="demo-menu-lower-left" style="background-color: black;">
+  <li class="mdl-menu__item" style="color: white;">Myanmar</li>
+  <li class="mdl-menu__item mdl-menu__item--full-bleed-divider" style="color: white;">English</li>
+  
+</ul>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="Myanmar.html">Myanmar</a></li>
+        <li><a href="English.html">English</a></li>
+        
+      </ul>
+    </div>
+   
+</nav>
+
+<div class="bgimg-1">
+  <div class="caption">
+    <span class="border">Explorations in Myanmar and global history</span><br>
+    
+  </div>
+</div>
+<h1>Myanmar Language Tools</h1>
+<div class="row">
+  <div class="column">
+    <img src="image/a.jpg" alt="Forest" style="width:100%">
+    
+</div>
+    <div class="column">
+    <img src="image/b.jpg" alt="Forest" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="image/e.jpg" alt="Mountains" style="width:100%">
+  </div>
+</div>
+
+
+<a class="waves-effect waves-light btn"><i class="material-icons left">cloud</i>button</a>
+</body>
+</html>
